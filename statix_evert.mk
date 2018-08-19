@@ -54,7 +54,9 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
     bootctrl.sdm660 \
-    bootctrl.sdm660.recovery
+    libcutils \
+    libgptutils \
+    libz
 
 # Recovery
 TARGET_RECOVERY_FSTAB := device/motorola/sdm660-common/rootdir/etc/fstab.qcom
