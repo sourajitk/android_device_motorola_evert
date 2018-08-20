@@ -55,7 +55,7 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl.recovery \
     bootctrl.sdm660 \
     libcutils \
-    libgptutils \
+    libgptutils.motorola_sdm660.recovery \
     libz
 
 # Recovery
