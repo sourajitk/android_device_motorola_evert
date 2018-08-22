@@ -31,6 +31,17 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_engine_sideload 
 
+# Bootctrl
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl \
+    update_engine_client
+
+# Boot control HAL
+PRODUCT_PACKAGES += \
+    android.hardware.boot@1.0-impl.recovery \
+    bootctrl.evert \
+    bootctrl.evert.recovery
+
 # Init
 PRODUCT_PACKAGES += \
     fstab.qcom
