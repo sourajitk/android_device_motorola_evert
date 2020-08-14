@@ -6,24 +6,19 @@ vendor/etc/acdbdata/common/Handset_cal.acdb
 vendor/etc/acdbdata/common/Hdmi_cal.acdb
 vendor/etc/acdbdata/common/Headset_cal.acdb
 vendor/etc/acdbdata/common/Speaker_cal.acdb
-vendor/etc/acdbdata/idn/Bluetooth_cal.acdb
+vendor/etc/acdbdata/idn/Bluetooth_cal.acdb|de32f236e41af911ffaa7a52018eb5e1556936c1
 vendor/etc/acdbdata/idn/General_cal.acdb
 vendor/etc/acdbdata/idn/Global_cal.acdb
-vendor/etc/acdbdata/idn/Handset_cal.acdb
+vendor/etc/acdbdata/idn/Handset_cal.acdb|f9d49f6e2fc399f8c7d8574fa357bbfaba7dc54f
 vendor/etc/acdbdata/idn/Hdmi_cal.acdb
-vendor/etc/acdbdata/idn/Headset_cal.acdb
+vendor/etc/acdbdata/idn/Headset_cal.acdb|6ac7e68e3794f9a2b73f37a516e29be178eba33f
 vendor/etc/acdbdata/idn/Speaker_cal.acdb
-
-# Display calib
-vendor/etc/qdcm_calib_data_mipi_mot_vid_auo_1080p_593.xml
-vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_593.xml
-vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_1080p_593.xml
 
 # Camera
 etc/zaf/zaf_mot_s5k2l7sa.json:vendor/etc/zaf/zaf_mot_s5k2l7sa.json
 etc/zaf/zaf_imx386.json:vendor/etc/zaf/zaf_imx386.json
 etc/zaf/zaf_imx386_mono.json:vendor/etc/zaf/zaf_imx386_mono.json
-lib/hw/libSonyDefocus.so:vendor/lib/hw/libSonyDefocus.so
+vendor/lib/hw/libSonyDefocus.so
 vendor/lib/hw/camera.sdm660.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libactuator_mot_ak7371.so
@@ -45,13 +40,9 @@ vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libvideobokeh.so
-vendor/lib/libts_detected_face_hal.so
-vendor/lib/libts_face_beautify_hal.so
 vendor/lib/libzaf_algs.so
 vendor/lib/libzaf_core.so
 vendor/lib64/libvideobokeh.so
-vendor/lib64/libts_detected_face_hal.so
-vendor/lib64/libts_face_beautify_hal.so
 vendor/etc/camera/camera_config.xml
 vendor/etc/camera/mot_ov5675_chromatix.xml
 vendor/etc/camera/mot_s5k3p8sp_chromatix.xml
@@ -61,6 +52,11 @@ vendor/lib64/libcdsprpc.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libmotimager_utils.so
+vendor/lib/libmot_lux_standardization.so
+vendor/lib/lib_mot_app6_metadata.so
+vendor/lib/lib_mot_led_calibration.so
+vendor/lib/libmot_afd.so
+vendor/lib/lib_motsensorlistener.so
 
 # Camera - Chromatix
 vendor/lib/libchromatix_imx386_4k_video_3a.so
@@ -137,25 +133,16 @@ vendor/lib/libchromatix_mot_ov5695_snapshot.so
 vendor/lib/libchromatix_mot_ov8856_common.so
 vendor/lib/libchromatix_mot_ov8856_cpp_ds_chromatix.so
 vendor/lib/libchromatix_mot_ov8856_cpp_hfr_120.so
-vendor/lib/libchromatix_mot_ov8856_cpp_hfr_60.so
-vendor/lib/libchromatix_mot_ov8856_cpp_hfr_90.so
 vendor/lib/libchromatix_mot_ov8856_cpp_liveshot.so
 vendor/lib/libchromatix_mot_ov8856_cpp_preview.so
+vendor/lib/libchromatix_mot_ov8856_cpp_snapshot_custom.so
 vendor/lib/libchromatix_mot_ov8856_cpp_snapshot.so
 vendor/lib/libchromatix_mot_ov8856_cpp_us_chromatix.so
 vendor/lib/libchromatix_mot_ov8856_cpp_video.so
-vendor/lib/libchromatix_mot_ov8856_default_preview_3a.so
-vendor/lib/libchromatix_mot_ov8856_default_video_3a.so
 vendor/lib/libchromatix_mot_ov8856_default_video.so
 vendor/lib/libchromatix_mot_ov8856_hfr_120_3a.so
 vendor/lib/libchromatix_mot_ov8856_hfr_120.so
-vendor/lib/libchromatix_mot_ov8856_hfr_60_3a.so
-vendor/lib/libchromatix_mot_ov8856_hfr_60.so
-vendor/lib/libchromatix_mot_ov8856_hfr_90_3a.so
-vendor/lib/libchromatix_mot_ov8856_hfr_90.so
-vendor/lib/libchromatix_mot_ov8856_liveshot.so
 vendor/lib/libchromatix_mot_ov8856_postproc.so
-vendor/lib/libchromatix_mot_ov8856_preview.so
 vendor/lib/libchromatix_mot_ov8856_snapshot.so
 vendor/lib/libchromatix_mot_ov8856_zsl_preview_3a.so
 vendor/lib/libchromatix_mot_ov8856_zsl_video_3a.so
@@ -269,7 +256,6 @@ vendor/lib/libmmcamera2_stats_modules.so
 vendor/lib/libmmcamera_chromaflash_lib.so
 vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_depth_map.so
-vendor/lib/libmmcamera_dummyalgo.so
 vendor/lib/libmmcamera_eebinparse.so
 vendor/lib/libmmcamera_eeprom_util.so
 vendor/lib/libmmcamera_eztune_module.so
@@ -335,6 +321,7 @@ vendor/lib/libmmcamera_mot_ov5675_eeprom.so
 vendor/lib/libmmcamera_mot_ov5675.so
 vendor/lib/libmmcamera_mot_ov5695_eeprom.so
 vendor/lib/libmmcamera_mot_ov5695.so
+vendor/lib/libmmcamera_mot_ov8856_eeprom.so
 vendor/lib/libmmcamera_mot_ov8856.so
 vendor/lib/libmmcamera_mot_s5k2l7sa_eeprom.so
 vendor/lib/libmmcamera_mot_s5k2l7sa_pdaf.so
@@ -342,6 +329,7 @@ vendor/lib/libmmcamera_mot_s5k2l7sa.so
 vendor/lib/libmmcamera_mot_s5k2l7.so
 vendor/lib/libmmcamera_mot_s5k3p8sp_eeprom.so
 vendor/lib/libmmcamera_mot_s5k3p8sp.so
+vendor/lib/libmmcamera_mot_s5k4h7_eeprom.so
 vendor/lib/libmmcamera_mot_s5k4h7.so
 vendor/lib/libmmcamera_optizoom_lib.so
 vendor/lib/libmmcamera_paaf_lib.so
@@ -375,62 +363,11 @@ vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
 # Camera - Postprocessing
-vendor/lib/libtrueportrait.so
-vendor/lib64/libtrueportrait.so
-lib/libblurbuster.so:vendor/lib/libblurbuster.so
-lib64/libblurbuster.so:vendor/lib64/libblurbuster.so
-lib64/libclearsight.so:vendor/lib64/libclearsight.so
-lib/libhazebuster.so:vendor/lib/libhazebuster.so
-lib64/libhazebuster.so:vendor/lib64/libhazebuster.so
-vendor/lib/libchromaflash.so
 vendor/lib/libdualcameraddm.so
-lib/libjni_blurbuster.so:vendor/lib/libjni_blurbuster.so
-lib/libjni_chromaflash.so:vendor/lib/libjni_chromaflash.so
-lib/libjni_dualcamera.so:vendor/lib/libjni_dualcamera.so
-lib/libjni_filtergenerator.so:vendor/lib/libjni_filtergenerator.so
-lib/libjni_hazebuster.so:vendor/lib/libjni_hazebuster.so
-lib/libjni_makeupV2.so:vendor/lib/libjni_makeupV2.so
-lib/libjni_optizoom.so:vendor/lib/libjni_optizoom.so
-lib/libjni_panorama.so:vendor/lib/libjni_panorama.so
-lib/libjni_seestraight.so:vendor/lib/libjni_seestraight.so
-lib/libjni_sharpshooter.so:vendor/lib/libjni_sharpshooter.so
-lib/libjni_stillmore.so:vendor/lib/libjni_stillmore.so
-lib/libjni_trackingfocus.so:vendor/lib/libjni_trackingfocus.so
-lib/libjni_trueportrait.so:vendor/lib/libjni_trueportrait.so
-lib/libjni_truescanner_v2.so:vendor/lib/libjni_truescanner_v2.so
-lib/libjni_ubifocus.so:vendor/lib/libjni_ubifocus.so
-lib64/libjni_blurbuster.so:vendor/lib64/libjni_blurbuster.so
-lib64/libjni_chromaflash.so:vendor/lib64/libjni_chromaflash.so
-lib64/libjni_clearsight.so:vendor/lib64/libjni_clearsight.so
-lib64/libjni_dualcamera.so:vendor/lib64/libjni_dualcamera.so
-lib64/libjni_filtergenerator.so:vendor/lib64/libjni_filtergenerator.so
-lib64/libjni_hazebuster.so:vendor/lib64/libjni_hazebuster.so
-lib64/libjni_makeupV2.so:vendor/lib64/libjni_makeupV2.so
-lib64/libjni_pacprocessor.so:vendor/lib64/libjni_pacprocessor.so
-lib64/libjni_optizoom.so:vendor/lib64/libjni_optizoom.so
-lib64/libjni_panorama.so:vendor/lib64/libjni_panorama.so
-lib64/libjni_seestraight.so:vendor/lib64/libjni_seestraight.so
-lib64/libjni_sharpshooter.so:vendor/lib64/libjni_sharpshooter.so
-lib64/libjni_stillmore.so:vendor/lib64/libjni_stillmore.so
-lib64/libjni_trackingfocus.so:vendor/lib64/libjni_trackingfocus.so
-lib64/libjni_trueportrait.so:vendor/lib64/libjni_trueportrait.so
-lib64/libjni_truescanner_v2.so:vendor/lib64/libjni_truescanner_v2.so
-lib64/libjni_ubifocus.so:vendor/lib64/libjni_ubifocus.so
-vendor/lib/liboptizoom.so
-vendor/lib/libseemore.so
-lib/libseestraight.so:vendor/lib/libseestraight.so
-lib/libtruescanner.so:vendor/lib/libtruescanner.so
-vendor/lib/libubifocus.so
-vendor/lib64/libchromaflash.so
 vendor/lib64/libdualcameraddm.so
-vendor/lib64/liboptizoom.so
-vendor/lib64/libseemore.so
-vendor/lib64/libubifocus.so
 vendor/lib/libS5k2l7Pdaf.so
 vendor/lib/libS5k2l7PdafCamif.so
 vendor/lib/libmm-qcamera.so
-vendor/lib/libmot_gpu_mapper.so
-lib/libcamera_metadata.so:vendor/lib/libcamera_metadata.so
 
 # Camera - Firmware
 vendor/firmware/cpp_firmware_v1_10_0.fw
@@ -445,12 +382,21 @@ vendor/firmware/cpp_firmware_v1_5_2.fw
 vendor/firmware/cpp_firmware_v1_6_0.fw
 vendor/firmware/cpp_firmware_v1_8_0.fw
 
+# Display calib
+vendor/etc/qdcm_calib_data_mipi_mot_vid_auo_1080p_593.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_593.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_1080p_593.xml
+
+# Display Panels
+vendor/firmware/focaltech-auo-ft5x46-03-0001-evert.bin
+vendor/firmware/focaltech-djn-ft5x46-15-0001-evert.bin
+vendor/firmware/goodix-auo-gt9xx-600a-0001-evert.bin
+vendor/firmware/goodix-tianma-gt9xx-6009-0001-evert.bin
+
 # DRM
 vendor/bin/qseecomd
 vendor/lib/libcppf.so
-vendor/lib/liboemcrypto.so
 vendor/lib/libQSEEComAPI.so
-vendor/lib/libsdedrm.so
 vendor/lib64/libdrmfs.so
 vendor/lib64/libdrmtime.so
 vendor/lib64/libGPreqcancel_svc.so
@@ -458,14 +404,13 @@ vendor/lib64/libGPreqcancel.so
 vendor/lib64/libqisl.so
 vendor/lib64/libQSEEComAPI.so
 vendor/lib64/librpmb.so
-vendor/lib64/libsdedrm.so
 vendor/lib64/libSecureUILib.so
 vendor/lib64/libssd.so
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
-vendor/lib64/com.fingerprints.extension@1.0_vendor.so
+vendor/lib64/com.fingerprints.extension@1.0.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
@@ -474,6 +419,9 @@ vendor/lib/hw/gatekeeper.sdm660.so
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/gatekeeper.sdm660.so
+
+# IMS
+-product/priv-app/ims/ims.apk|75854565f032706bd2c91bef682f1ab71a1db870
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
@@ -490,5 +438,8 @@ vendor/lib64/libkeymasterutils.so
 # NFC
 vendor/lib64/libpn553_fw.so
 
-# Thermal
-etc/thermal-engine-evert.conf:vendor/etc/thermal-engine.conf
+# Sound Card - Marley
+vendor/firmware/marley-dsp1-ultrasound.wmfw
+vendor/firmware/marley-dsp2-aov-frontend.wmfw
+vendor/firmware/marley-dsp2-aov-vrgain.bin
+vendor/firmware/marley-dsp3-aov-control.wmfw
