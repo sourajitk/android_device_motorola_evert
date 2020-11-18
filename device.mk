@@ -31,6 +31,10 @@ PRODUCT_PACKAGES += \
     update_engine \
     update_engine_sideload 
 
+# Init
+PRODUCT_PACKAGES += \
+    fstab.qcom
+
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
     device/motorola/evert
